@@ -1,29 +1,25 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
 
 <style lang="less">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@import '~@/style/mixins.less';
+@import '~@/style/variables.less';
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: @white;
+  font-size: @base-font-size;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+  "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
 }
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+body {
+  .mixin-max-wh();
+  margin: 0 auto;
+}
+#app {
+  height: 100%;
 }
 </style>

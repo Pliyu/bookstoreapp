@@ -1,4 +1,4 @@
-# logisticsapp
+# bookstoreapp
 
 ## Project setup
 ```

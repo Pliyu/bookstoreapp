@@ -1,0 +1,11 @@
+export const PENDING_PAYMENT = 'pending_payment'
+export const PENDING_SHIPMENTS = 'pending_shipments'
+export const PENDING_COLLECT_GOODS = 'pending_collect_goods'
+export const PENDING_COMMENT = 'pending_comment'
+export const CANCELED = 'canceled'
+
+export const DISCOUNT_PRICE = 'discount_price'
+export const SHOPPING_CART = 'shopping_cart'
+export const ENSHRINE = 'enshrine'
+export const DELIVERY_ADDRESS = 'delivery_address'
+export const SERVICE = 'service'
