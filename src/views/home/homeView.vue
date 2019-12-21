@@ -8,13 +8,13 @@
         </van-swipe-item>
       </van-swipe>
     </div>
-    <!-- <base-card
+    <base-card
     p-img-src='https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1572616428&di=4ebdaf57a6d7b5785a2193d54feaf8db&src=http://b-ssl.duitang.com/uploads/item/201303/24/20130324094837_HzZms.jpeg'
     p-marker='书本'
     pTitle='好书'
     pCurrentPrice='123'
     pOriginalPrice='222'
-    pRightSpec='销量2134'></base-card> -->
+    pRightSpec='销量2134'></base-card>
   </div>
 </template>
 <script lang='ts'>

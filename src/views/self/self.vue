@@ -64,7 +64,9 @@ export default class Self extends Vue {
     this.$router.push('/login')
   }
   public onClickTool (toolItem: any): void {
+    this.$toast('即将开放，敬请期待')
     console.log(toolItem.type)
+    return
   }
 }
 </script>

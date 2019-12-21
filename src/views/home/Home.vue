@@ -12,6 +12,7 @@
         <span><van-icon name='shopping-cart-o' @click='onClickCart'></van-icon></span>
       </div>
     </div>
+    <div class='home-top-placeholder'></div>
     <component ref='tabView' :is='homeComponent'></component>
   </base-page>
 </template>
@@ -53,6 +54,15 @@ export default class Home extends Vue {
   display: flex;
   justify-content: space-between;
   color: @gray6;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 46px;
+  z-index: 999;
+  background: @white;
+  &-placeholder{
+    height: 44px;
+  }
   &-left{
     flex: 1;
   }

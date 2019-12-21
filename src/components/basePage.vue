@@ -15,6 +15,7 @@
     <div>
      <slot />
     </div>
+    <div class='foot-placeholder'></div>
     <foot-tab-bar v-if='isShowFootTab' :tabs='footTabs'></foot-tab-bar>
   </div>
 </template>
@@ -73,5 +74,8 @@ export default class BasePage extends Vue {
 }
 .header-placeholder{
   height: 46px;
+}
+.foot-placeholder{
+  height: 50px;
 }
 </style>
